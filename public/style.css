@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  padding: 8% 0;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+}
+
+/* botones */
+
+.boton {
+  padding: 0.3rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.boton-formulario{
+    background-color: #5b1d5d;
+    color: white;
+    outline: none;
+    border: none;
+}
+.boton-formulario:hover{
+    background-color: transparent;
+    border: 1px solid #5b1d5d;
+    color: #5b1d5d;
+}
+
+.login {
+  background-color: #5b1d5d;
+}
+
+.signup {
+  border: 1px solid #5b1d5d;
+  color: #5b1d5d;
+}
+
+.boton-transicion {
+  background-color: #5b1d5d;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: block;
+  margin: 5% auto;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  transition: tranasform 0.3s, background-color 0.3s, color 0.3s;
+}
+.boton-transicion:hover {
+  transform: translateY(-10px);
+  background-color: white;
+  color: #5b1d5d;
+  border: 1px solid #5b1d5d;
+}
+
+.formulario-login{
+    border: 2px solid #efe2f8;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* secciones */
+
+.contenedor-navegacion {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+    background-color: #efe2f8;
+}
+footer .contenedor-footer {
+  padding: 3% 5%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+footer .seccion-footer a {
+  display: block;
+  padding: 1% 0;
+  color: black;
+}
+footer .seccion-footer p{
+    font-weight: bolder;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #5b1d5d;
+}
